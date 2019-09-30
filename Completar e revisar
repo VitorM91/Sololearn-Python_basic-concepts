@@ -25,3 +25,44 @@ print("Hello \n World!")
 #As funções PRINT e INPUT não parecem ser tão úteis no console PYTHON 
 
 # Concatenar palavras
+print("Amo" + "Ovos")
+print("First string" + ", " + "second string")
+
+# O erro gerado será dado ao final do output resposta de erro
+#print( 1 + '2' + 3 + '4')
+
+print("one" + "2" )
+print(3 + 4)
+print("7" + 'eight')
+#Essa próxima fórmula gera erro por conta do formato utilizado
+#print('5' + 6)
+
+#Posso multiplicar strings(caracteres não numéricos) por integer(números integrais)
+print("spam" * 3)
+print(4 * '2')
+#print('17' * '87')
+#print('pythonisfun' * 7.0)
+print("hey" * 0)
+print(("No" + " ")*10)
+print("spam" * -3)
+#Teste de um usuário
+print("start.....")
+
+x=1
+while x<11:
+        print("*" *x)
+        x+=1
+print("end...")
+#Para somar números sem aspas é simples
+print( 2 + 3 )
+#Porém somar com aspas tenho que por a função INT
+int("2") + int("3") 
+# In Python, the types we have used so far have been integers, floats, and strings. The functions used to convert to these are int, float and str, respectively.
+#Dessa forma dá 34
+print(int("3" + "4"))
+
+#Conversão 
+#print(float(input("Enter a number: ")) + float(input("Enter another number: ")))
+
+#
+float("210" * int(input("Enter a number:" )))
