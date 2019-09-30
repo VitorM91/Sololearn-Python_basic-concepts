@@ -4,16 +4,24 @@ print(2**5)
 print(9**(1/2))
 # vinte dividido por 6
 print(20//6)
-# O que sobra da operação 1.25/0.5 é 0.25
+# O que sobra da operação 1.25 dividido por 0.5 é 0.25
 print(1.25 % 0.5)
 # O que sobra da operação de 20 dividido por 6 são duas unidades
 print(20 % 6)
-# 5 dividido por 2 é igual a 2(no caso ignora-se o que está além da vírgula), 7 dividido por 2 sobra 1 
+# 5 dividido por 2 é igual a 2(no caso ignora-se o que está além da vírgula), 7 dividido por 2,5 sobra 0 
 print(7%(5//2))
 
 #Backslash é a barra invertida: para fazê-la devo clicar em alt + 92(isso mesmo noventa e dois)
 print('He\'s a good guy Vitor Jesus\'s love' )
+
 # Por as três aspas duplas(double quote)faz com que haja o pulo automático de linha, ao dar enter, isso substitue a necessidade de se por '\n' onde se quer pular linhas
 print("""Customer: Good morning.
 Owneer: Good morning, Sir.
 Welcome to the National Cheese Emporium.""")
+#A função INPUT: As aspas duplas faz com que sai no painel de output a frase sem aspas
+print(1+1)
+print("Hello \n World!")
+
+#As funções PRINT e INPUT não parecem ser tão úteis no console PYTHON 
+
+# Concatenar palavras
